@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elegant Nails</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <script src="./js.js"></script>
+</head>
+
+<body class="body">
+
+    <header class="header  py-3">
+        <header class="header hero text-white">
+            <div class="container">
+                <!-- Навигация -->
+                <nav class="navbar navbar-expand-md header__nav">
+                    <a class="navbar-brand d-md-none text-white" href="#">ELEGANT NAILS</a>
+
+                    <!-- Кнопка-бургер -->
+                    <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarMenu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <!-- Меню -->
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarMenu">
+                        <ul class="navbar-nav header__menu">
+                            <li class="nav-item"><a href="#about" class="nav-link">О нас</a></li>
+                            <li class="nav-item"><a href="#services" class="nav-link">Работы и услуги</a></li>
+                            <li class="nav-item"><a href="#contacts" class="nav-link">Контакты</a></li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <!-- Баннер -->
+                <div
+                    class="header__banner d-flex flex-column justify-content-center align-items-center text-center text-white py-5">
+                    <div class="banner__text-elegant display-3 fw-bold">ELEGANT</div>
+                    <div class="banner__text-nails  fw-bold text-uppercase">Nails</div>
+                    <button class="btn btn-outline-light banner__btn mt-4 px-4 py-2" data-bs-toggle="modal"
+                        data-bs-target="#bookingModal">ЗАПИСАТЬСЯ</button>
+                </div>
+
+            </div>
+        </header>
+
+
+    </header>
+
+    <section id="about" class="about container py-5">
+        <h2 class="about__title text-center text-uppercase mb-5">About Us</h2>
+
+        <div class="row">
+            <!-- Левый блок -->
+            <div class="col-md-6 d-flex flex-column justify-content-center mb-4 mb-md-0">
+                <div class="about__text mb-3">
+                    <p>
+                        Привет! Меня зовут [Имя], я мастер маникюра с [количество лет] летним опытом. Работаю в уютной
+                        домашней студии, где создаю красоту и ухаживаю за руками своих клиенток с любовью и вниманием к
+                        деталям.
+
+                        Каждый маникюр для меня — это не просто работа, а маленькое искусство. Я постоянно
+                        совершенствуюсь, слежу за новыми трендами и использую качественные материалы, чтобы вы
+                        чувствовали себя уверенно и стильно каждый день.
+
+                        У меня вы найдёте комфорт, индивидуальный подход и тёплую атмосферу. Приходите за красотой и
+                        хорошим настроением — буду рада видеть вас!
+                    </p>
+                </div>
+                <div class="about__img-wrapper">
+                    <img src="./img/Acycoin2A Acrylic Nail Polish Color Display Board Book Nail Design Chart with 2 Styles Nail Tips Card Board Salon Showing Shelf (160 Colors).jpg"
+                        class="img-fluid rounded about__img" alt="Интерьер студии">
+                </div>
+            </div>
+
+            <!-- Правый блок -->
+            <div class="col-md-6 d-flex flex-column justify-content-between">
+                <div class="about__img-wrapper mb-3">
+                    <img src="./img/Организация рабочего места.jpg" class="img-fluid rounded about__img"
+                        alt="Рабочее место мастера">
+                </div>
+                <div class="about__desc">
+                    <p>
+                        Я работаю на дому, и именно это позволяет мне создать по-настоящему уютную и расслабляющую
+                        атмосферу — без суеты, шума и очередей. Вы приходите не просто на маникюр, а на персональный
+                        сеанс ухода и заботы.
+
+                        В моём арсенале — классический, аппаратный, комбинированный маникюр, выравнивание и укрепление
+                        ногтевой пластины, дизайн любой сложности, от минимализма до яркого арта. Вместе мы подберём
+                        стиль, который подчеркнёт вашу индивидуальность.
+
+                        Забота о гигиене и безопасности — мой приоритет: стерильные инструменты, одноразовые материалы и
+                        чистота на рабочем месте — всегда на первом месте.
+
+                        Записывайтесь заранее — и приходите на чашечку ароматного кофе и красивые ноготки 🌸
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="services" class="services container py-5">
+        <div class="row align-items-center">
+            <!-- Прайс-лист -->
+            <section class="services container py-5">
+                <div class="row align-items-start">
+                    <!-- Прайс-лист (левая колонка) -->
+                    <div class="col-md-6">
+                        <div class="price">
+                            <h2 class="price__title text-center mb-2">Price list</h2>
+                            <h5 class="price__subtitle text-center mb-4">МАНИКЮР</h5>
+
+                            <div class="price__item d-flex justify-content-between align-items-start mb-4">
+                                <div>
+                                    <h5 class="price__name">МАНИКЮР</h5>
+                                    <p class="price__desc">маникюр без покрытия</p>
+                                </div>
+                                <span class="price__cost">800 р.</span>
+                            </div>
+
+                            <div class="price__item d-flex justify-content-between align-items-start mb-4">
+                                <div>
+                                    <h5 class="price__name">МАНИКЮР С ПОКРЫТИЕМ</h5>
+                                    <p class="price__desc">маникюр + покрытие гель-лак</p>
+                                </div>
+                                <span class="price__cost">1300 р.</span>
+                            </div>
+
+                            <div class="price__item d-flex justify-content-between align-items-start mb-4">
+                                <div>
+                                    <h5 class="price__name">МАНИКЮР С УКРЕПЛЕНИЕМ</h5>
+                                    <p class="price__desc">маникюр + покрытие гель-лак +<br>укрепление гелем/полигелем
+                                    </p>
+                                </div>
+                                <span class="price__cost">1700 р.</span>
+                            </div>
+
+                            <div class="price__item d-flex justify-content-between align-items-start mb-4">
+                                <div>
+                                    <h5 class="price__name">НАРАЩИВАНИЕ</h5>
+                                    <p class="price__desc">маникюр + наращивание длины +<br>покрытие гель-лак</p>
+                                </div>
+                                <span class="price__cost">2500 р.</span>
+                            </div>
+
+                            <div class="price__item d-flex justify-content-between align-items-start">
+                                <div>
+                                    <h5 class="price__name">КОРРЕКЦИЯ НАРАЩИВАНИЯ</h5>
+                                    <p class="price__desc">маникюр + коррекция гелем +<br>покрытие гель-лак</p>
+                                </div>
+                                <span class="price__cost">1700 р.</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Фото (правая колонка) -->
+                    <div class="col-md-6 text-center mt-4 mt-md-0">
+                        <img src="./img/Без названия.jpeg" class="img-fluid services__img" alt="nail service">
+                    </div>
+                </div>
+            </section>
+
+            <section class="works container py-5">
+                <h2 class="works__title text-uppercase mb-4">Our Works</h2>
+
+                <div class="position-relative">
+                    <!-- Галерея -->
+                    <div class="works__gallery d-flex overflow-hidden">
+                        <div class="works__item col-6 col-md-4 px-1">
+                            <img src="./img/work1.jpg" class="works__img img-fluid" alt="Работа 1">
+                        </div>
+                        <div class="works__item col-6 col-md-4 px-1">
+                            <img src="./img/work2.jpg" class="works__img img-fluid" alt="Работа 2">
+                        </div>
+                        <div class="works__item col-6 col-md-4 px-1">
+                            <img src="./img/work3.jpg" class="works__img img-fluid" alt="Работа 3">
+                        </div>
+                        <div class="works__item col-6 col-md-4 px-1">
+                            <img src="./img/work4.jpg" class="works__img img-fluid" alt="Работа 4">
+                        </div>
+                        <div class="works__item col-6 col-md-4 px-1">
+                            <img src="./img/work5.jpg" class="works__img img-fluid" alt="Работа 5">
+                        </div>
+                        <div class="works__item col-6 col-md-4 px-1">
+                            <img src="./img/work6.jpg" class="works__img img-fluid" alt="Работа 6">
+                        </div>
+                        <div class="works__item col-6 col-md-4 px-1">
+                            <img src="./img/work6.jpg" class="works__img img-fluid" alt="Работа 6">
+                        </div>
+                        <div class="works__item col-6 col-md-4 px-1">
+                            <img src="./img/work6.jpg" class="works__img img-fluid" alt="Работа 6">
+                        </div>
+                        <div class="works__item col-6 col-md-4 px-1">
+                            <img src="./img/work6.jpg" class="works__img img-fluid" alt="Работа 6">
+                        </div>
+                    </div>
+
+                    <!-- Кнопки стрелки -->
+                    <div class="works__controls d-flex justify-content-center gap-3 mt-3">
+                        <button id="prevBtn" class="btn btn-outline-light">←</button>
+                        <button id="nextBtn" class="btn btn-outline-light">→</button>
+                    </div>
+                </div>
+
+                <!-- Кнопка записи -->
+                <div class="text-center mt-4">
+                    <button class="btn btn-outline-light" data-bs-toggle="modal"
+                        data-bs-target="#bookingModal">ЗАПИСАТЬСЯ</button>
+                </div>
+            </section>
+
+
+
+
+            <footer class="bg-black text-white pt-5">
+                <div class="container">
+                    <div class="row justify-content-between">
+                        <!-- Левая часть -->
+                        <div class="col-md-6 mb-4">
+                            <h2 class="text-uppercase fw-bold" style="color:#d3a0d7;">Contacts</h2>
+                            <p class="mb-1">г. Москва, ул. Цветочная, д. 12, офис 5</p>
+                            <p class="mb-3">+7 (495) 123-45-67</p>
+
+                            <!-- Иконки как изображения -->
+                            <div class="d-flex gap-3 mt-2">
+                                <a href="https://t.me/elya_xachaturyan" target="_blank">
+                                    <img src="./img/icons8-телеграмма-50 (1).png" alt="Telegram" width="32" height="32">
+                                </a>
+                                <a href="https://www.instagram.com/elya_beautiful_?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                                    target="_blank">
+                                    <img src="./img/icons8-инстаграм-в-круге-30-белый.png" alt="Instagram" width="32"
+                                        height="32">
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- Правая часть: Ссылки -->
+                        <div class="col-md-6 text-md-end text-start mt-4 mt-md-0">
+                            <ul class="list-unstyled d-flex flex-column flex-md-row justify-content-md-end gap-3 mb-3">
+                                <li><a href="#about" class="text-white text-decoration-none">О нас</a></li>
+                                <li><a href="#services" class="text-white text-decoration-none">Работы и услуги</a></li>
+                                <li><a href="#contacts" class="text-white text-decoration-none">Контакты</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Общая линия и подпись -->
+                    <hr class="border-secondary my-3">
+                    <div class="text-center text-secondary small pb-2">
+                        Разработка сайта © YourName
+                    </div>
+                </div>
+            </footer>
+
+
+
+
+
+            <!-- КНОПКА (пример) -->
+
+
+            <!-- МОДАЛЬНОЕ ОКНО Bootstrap -->
+            <div class="modal fade" id="bookingModal" tabindex="-1" aria-labelledby="bookingModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content bg-dark text-white">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="bookingModalLabel">Запись на маникюр</h5>
+                            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                        </div>
+                        <form id="bookingForm">
+                            <div class="modal-body">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Имя</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="phone" class="form-label">Номер телефона</label>
+                                    <input type="tel" class="form-control" id="phone" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="date" class="form-label">Желаемая дата</label>
+                                    <input type="date" class="form-control" id="date" required>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="submit" class="btn btn-light">Отправить</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+            <script>
+                const gallery = document.querySelector('.works__gallery');
+                const items = document.querySelectorAll('.works__item');
+                const prevBtn = document.getElementById('prevBtn');
+                const nextBtn = document.getElementById('nextBtn');
+
+                let scrollIndex = 0;
+
+                function updateScroll(direction) {
+                    const itemWidth = items[0].offsetWidth + 16; // ширина + отступ
+                    const visibleItems = Math.floor(gallery.offsetWidth / itemWidth);
+                    const maxIndex = items.length - visibleItems;
+
+                    scrollIndex += direction;
+                    if (scrollIndex < 0) scrollIndex = 0;
+                    if (scrollIndex > maxIndex) scrollIndex = maxIndex;
+
+                    gallery.scrollTo({
+                        left: scrollIndex * itemWidth,
+                        behavior: 'smooth'
+                    });
+                }
+
+                prevBtn.addEventListener('click', () => updateScroll(-1));
+                nextBtn.addEventListener('click', () => updateScroll(1));
+            </script>
+
+
+            <script>document.getElementById('bookingForm').addEventListener('submit', function (e) {
+                    e.preventDefault();
+
+                    const name = document.getElementById('name').value.trim();
+                    const phone = document.getElementById('phone').value.trim();
+                    const date = document.getElementById('date').value;
+
+                    const message = `
+                   💅 <b>Новая запись:</b>\n
+                   👤 Имя: ${name}
+                   📞 Телефон: ${phone}
+                   📅 Дата: ${date}
+                               `;
+
+                    const token = '7768995513:AAGFqgzdQjUD-GWOjWczNpORM9p2peq1ZOI';
+                    const chatId = '1082753166';
+
+                    fetch(`https://api.telegram.org/bot${token}/sendMessage`, {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({
+                            chat_id: chatId,
+                            text: message,
+                            parse_mode: 'HTML'
+                        })
+                    })
+                        .then(response => {
+                            if (response.ok) {
+                                alert('Заявка успешно отправлена!');
+                                document.getElementById('bookingForm').reset();
+                                const modal = bootstrap.Modal.getInstance(document.getElementById('bookingModal'));
+                                modal.hide();
+                            } else {
+                                alert('Ошибка при отправке. Попробуйте позже.');
+                            }
+                        })
+                        .catch(error => {
+                            alert('Ошибка соединения. Попробуйте позже.');
+                        });
+                });
+
+            </script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

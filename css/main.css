@@ -272,6 +272,19 @@ body {
   position: relative;
 }
 
+/* Для мобильных — делаем 100% высоты экрана */
+@media (max-width: 768px) {
+  .header__banner {
+    height: 100vh;
+    padding-top: 100px; /* чтобы текст не прилипал к верху */
+  }
+}
+
+
+.header__banner {
+  background: url('./img/header-bg.jpg') no-repeat center 30% / cover;
+}
+
 .banner__text-elegant {
   letter-spacing: 5px;
   color: #d3a0d7;
